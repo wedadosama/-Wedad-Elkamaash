@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --text-color:#D2B48C;
+  --btn-color:#F4A460;
+  --bg-color: #FAF0E6;
+}
+body{
+  font-family:Arial, Helvetica, sans-serif ;
+}
+.dark-theme{
+  --text-color:#654321;
+  --btn-color:#A0522D;
+  --bg-color: #3B3024;
+}

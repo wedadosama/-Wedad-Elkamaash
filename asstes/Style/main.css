@@ -10,9 +10,53 @@
 }
 body{
   font-family:Arial, Helvetica, sans-serif ;
+  background-color: var(--bg-color);
 }
 .dark-theme{
-  --text-color:#654321;
+  --text-color:#a16931;
   --btn-color:#A0522D;
-  --bg-color: #3B3024;
+  --bg-color: #382715;
+}
+.container{
+  padding: 0 15px;
+  margin: auto;
+}
+@media(min-width:768px){
+  .container{
+    width: 750px;
+  }
+}
+@media(min-width:992px){
+  .container{
+    width: 970px;
+  }
+}
+@media(min-width:1200px){
+  .container{
+    width: 1190px;
+  }
+}
+a{
+  text-decoration: none;
+}
+header{
+  padding: 20px 0;
+  border-bottom: 1px solid rgb(0 0 0 /0.1);
+}
+header .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header a{
+  font-size: 30px;
+  font-weight: bold;
+  color: var(--text-color);
+
+}
+header img{
+ width: 30px;
+ background-color: var(--btn-color);
+ border-radius: 50%;
+
 }

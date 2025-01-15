@@ -15,7 +15,7 @@ body{
 .dark-theme{
   --text-color:#a16931;
   --btn-color:#A0522D;
-  --bg-color: #382715;
+  --bg-color: #0a0a0a;
 }
 .container{
   padding: 0 15px;
@@ -38,6 +38,9 @@ body{
 }
 a{
   text-decoration: none;
+}
+img{
+max-width: 100%;
 }
 header{
   padding: 20px 0;

@@ -17,8 +17,9 @@ body {
   --btn-color: #a0522d;
   --bg-color: #3d2705;
 }
-section{
+section {
   padding: 20px 0;
+  text-align: center;
 }
 .container {
   padding: 0 15px;
@@ -47,6 +48,7 @@ li {
 }
 img {
   max-width: 100%;
+  border-radius: 50%;
 }
 header {
   padding: 20px 0;
@@ -65,17 +67,14 @@ header a {
 header img {
   width: 30px;
   background-color: var(--btn-color);
-  border-radius: 50%;
 }
 .user-deta {
-  text-align: center;
   margin-bottom: 20px;
 }
 
 .user-deta img {
   width: 150px;
   height: 150px;
-  border-radius: 50%;
 }
 
 .user-deta h1 {
@@ -89,7 +88,7 @@ header img {
   margin-top: 10px;
   padding: 10px 15px;
   background-color: var(--btn-color);
-  color: white;
+  color: var(--bg-color);
   border-radius: 5px;
 }
 
@@ -104,16 +103,13 @@ header img {
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 10px;
-  text-align: center;
   transition: box-shadow 0.3s ease;
 }
 
 #user-repos li:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 #user-repos a {
-  text-decoration: none;
   color: var(--text-color);
   font-size: 1rem;
   font-weight: bold;
